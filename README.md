@@ -96,3 +96,7 @@ nvcc -std=c++17 -O3 -arch=sm_86  -ccbin /usr/bin/g++-10  RQ.cu  src/TreeCount/Tr
 ./RQ data/roadData/bay.txt data/queryBatch/bay.txt 0
 
 ```
+
+## Index Construction
+
+The GPU implementation extends from G2H, available at [https://github.com/CSU-WRZ/MHL-GPU](https://github.com/CSU-WRZ/MHL-GPU).
